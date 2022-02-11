@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Diagnostics;
 
 namespace Bubbelsort_Algotithem {
@@ -33,6 +34,7 @@ namespace Bubbelsort_Algotithem {
             // === === === === === === === === === === === === \\
         
             // === === === Bubble sort algorithm === === === \\
+            var timer = Stopwatch.StartNew();
             for (int i = 1; (i <= (arrayLength - 1)) && flag; i++) {  
                 flag = false;  
                 for (int j = 0; j < (arrayLength - 1); j++) {  
@@ -46,11 +48,10 @@ namespace Bubbelsort_Algotithem {
                     }  
                 }  
             }  
-            
             foreach (int num in numberArray) {  
             Console.Write("\t {0}",num);  
-            }  
-            
+            } 
+            timer.Stop();
             Console.Read();  
         }    
     }
