@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Generic.Collections;
 using System.Diagnostics;
 
 namespace Bubbelsort_Algotithem {
@@ -7,14 +6,14 @@ namespace Bubbelsort_Algotithem {
     public class HelloWorld {
     
         public static void Main(string[] args) {
-            int[] numberArray = new int[1000]; // Array with 1000 ints
+            int[] numberArray = new int[8000]; // Array with 1000 ints
             Random intRng = new Random(); // Random number generator
         
             bool flag = true;  
             int temp;  
             int arrayLength = numberArray.Length; // The length of the array.
         
-            for(int i = 0; i < 1000 ; i++) { // Assigns random values to the ints
+            for(int i = 0; i < 8000 ; i++) { // Assigns random values to the ints
                 numberArray[i] = intRng.Next(1, 1001);
                 Console.Write(numberArray[i] + " ");
             }
@@ -51,7 +50,7 @@ namespace Bubbelsort_Algotithem {
             foreach (int num in numberArray) {  
             Console.Write("\t {0}",num);  
             }  
-            Console.WriteLine(watch.ElapsedMilliseconds + " ms");
+            
             Console.Read();  
         }    
     }
