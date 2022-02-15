@@ -30,17 +30,16 @@ namespace Bubbelsort_Algotithem {
             Console.ReadKey();
         
             // === === === === === === === === === === === === \\
-            // === === === ==== Sorting array ==== === === === \\
+            // === === === ===== Bubble sort ===== === === === \\
             // === === === === === === === === === === === === \\
-        
-            // === === === Bubble sort algorithm === === === \\
+    
             var timer = Stopwatch.StartNew();
             for (int i = 1; (i <= (arrayLength - 1)) && flag; i++) {  
                 flag = false;  
                 for (int j = 0; j < (arrayLength - 1); j++) {  
                 
-                // Sorts largest to smallest int
-                    if (numberArray[j + 1] > numberArray[j]) { // > = large to smal, < = smal to large
+                // Sorts smallest to largest int
+                    if (numberArray[j + 1] < numberArray[j]) { // > = large to smal, < = smal to large
                         temp = numberArray[j];  
                         numberArray[j] = numberArray[j + 1];  
                         numberArray[j + 1] = temp;  
