@@ -22,9 +22,9 @@ namespace Bubbelsort_Algotithem {
             Console.WriteLine(" ");
             Console.WriteLine(" ");
         
-            Console.WriteLine("= = = = = = = = = = = = = = = = = = = =");
+            Console.WriteLine("= = = = = = = = = = = = = = = = = = = = = = = =");
             Console.WriteLine("Time to sort the array!");
-            Console.WriteLine("= = = = = = = = = = = = = = = = = = = =");
+            Console.WriteLine("= = = = = = = = = = = = = = = = = = = = = = = =");
         
             Console.WriteLine(" ");
             Console.ReadKey();
@@ -52,6 +52,11 @@ namespace Bubbelsort_Algotithem {
             Console.Write("\t {0}",num);  
             } 
             timer.Stop();
+            
+            Console.WriteLine();
+            Console.WriteLine("= = = = = = = = = = = = = = = = = = = = = = = =");
+            Console.WriteLine("The array has been sorted. it took: " + timer.ElapsedMilliseconds + " ms");
+            Console.WriteLine("= = = = = = = = = = = = = = = = = = = = = = = =");
             Console.Read();  
         }    
     }

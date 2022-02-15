@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\mtjoh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Bubblesort_v2\\Bubblesort_v2.csproj",
+      "projectUniqueName": "C:\\Users\\mtjoh\\OneDrive\\Dokument\\GitHub\\Bubblesort_v2\\Bubblesort_v2.csproj",
       "projectName": "Bubblesort_v2",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Bubblesort_v2\\Bubblesort_v2.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Bubblesort_v2\\obj\\",
+      "projectPath": "C:\\Users\\mtjoh\\OneDrive\\Dokument\\GitHub\\Bubblesort_v2\\Bubblesort_v2.csproj",
+      "packagesPath": "C:\\Users\\mtjoh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mtjoh\\OneDrive\\Dokument\\GitHub\\Bubblesort_v2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mtjoh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
